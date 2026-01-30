@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: sharath
-        image: sharath4444/docker-project:latest
+        image: sharath4444/tic-tac-toe:v1 #sharath4444/docker-project:latest
         ports:
         - containerPort: 3000   # Use port 3000
 
